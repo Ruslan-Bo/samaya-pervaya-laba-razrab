@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script>
+        var x = +prompt("Введите x");
+        var n = +prompt("Введите кол-во проходов");
+
+        var sum = 0;
+
+        for(var i = 0; i < n; i++){
+            var p = (x**((2*i)+1))/((2*i)+1);
+            sum = sum + p;
+        }
+
+        alert("Результат формулы: " + sum);
+    </script>
+</body>
+</html>
